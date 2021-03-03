@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration monitorInterval="5" status="info">
+    <Properties>
+        <property name="LOG_PATTERN" value="%date{yyyy-MM-dd HH:mm:ss.SSS} %t %level %c %m%n" />
+        <property name="FILE_PATH" value="logs/" />
+        <property name="FILE_NAME" value="boy.log"/>
+    </Properties>
+
+    <appenders>
+        <console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <ThresholdFilter level="info"/>
+        </console>
+        <RollingFile name="rollingFileInfo" fileName="${FILE_PATH}/info.log" filePattern="${FILE_PATH}/${FILE_NAME}-INFO-%d{yyyy-MM-dd}_%i.log">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <!--interval属性用来指定多久滚动一次，默认是1 hour-->
+                <TimeBasedTriggeringPolicy interval="24"/>
+                <SizeBasedTriggeringPolicy size="200MB"/>
+            </Policies>
+            <!-- DefaultRolloverStrategy属性如不设置，则默认为最多同一文件夹下7个文件开始覆盖-->
+            <DefaultRolloverStrategy max="100"/>
+        </RollingFile>
+    </appenders>
+
+    <loggers>
+        <logger name="org.mybatis" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+        </logger>
+        <Logger name="org.springframework" level="WARN" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="rollingFileInfo"/>
+        </Logger>
+        <!-- 局部异步 includeLocation 是否打印行号 -->
+        <AsyncLogger  name="com.baidu.boy" level="info" additivity="false" includeLocation="false">
+            <AppenderRef ref="rollingFileInfo"/>
+            <AppenderRef ref="Console"/>
+        </AsyncLogger >
+        <!-- 缺省输出 -->
+        <root level="INFO">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="rollingFileInfo"/>
+        </root>
+    </loggers>
+</configuration>

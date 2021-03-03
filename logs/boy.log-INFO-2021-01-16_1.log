@@ -1,0 +1,468 @@
+2020-12-24 11:27:21.710 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 6384 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 11:27:21.724 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 11:27:22.952 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 11:27:22.953 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 11:27:22.953 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 11:27:23.047 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 11:27:23.420 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 11:27:23.466 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 2.505 seconds (JVM running for 4.114)
+2020-12-24 11:28:01.076 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 11:28:13.045 http-nio-9999-exec-1 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [{"statusCode":400,"error":"Bad Request","message":"[request body.username]: expected value of type [string] but got [undefined]"}]] with root cause
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [{"statusCode":400,"error":"Bad Request","message":"[request body.username]: expected value of type [string] but got [undefined]"}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:101) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:782) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:740) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:674) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:583) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at com.baidu.boy.controller.CookieController.testCookie(CookieController.java:22) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_40]
+2020-12-24 11:31:08.647 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 15696 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 11:31:08.731 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 11:31:09.692 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 11:31:09.692 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 11:31:09.692 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 11:31:09.797 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 11:31:10.208 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 11:31:10.254 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 2.341 seconds (JVM running for 4.073)
+2020-12-24 11:31:18.775 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 19564 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 11:31:18.792 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 11:31:19.739 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 11:31:19.739 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 11:31:19.740 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 11:31:19.825 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 11:31:20.175 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 11:31:20.216 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 2.077 seconds (JVM running for 3.683)
+2020-12-24 11:31:32.796 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 13:45:10.846 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 10884 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 13:45:10.856 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 13:45:11.582 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 13:45:11.583 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 13:45:11.583 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 13:45:11.648 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 13:45:11.864 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 13:45:11.894 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.562 seconds (JVM running for 2.845)
+2020-12-24 13:45:56.444 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 13:46:44.016 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 23784 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 13:46:44.024 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 13:46:44.761 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 13:46:44.762 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 13:46:44.762 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 13:46:44.826 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 13:46:45.048 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 13:46:45.074 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.492 seconds (JVM running for 2.635)
+2020-12-24 13:47:02.213 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 13:47:42.747 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 15520 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 13:47:42.754 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 13:47:43.434 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 13:47:43.434 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 13:47:43.435 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 13:47:43.498 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 13:47:43.730 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 13:47:43.758 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.43 seconds (JVM running for 2.603)
+2020-12-24 13:47:55.294 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 13:55:55.689 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 1668 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 13:55:55.700 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 13:55:56.452 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 13:55:56.453 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 13:55:56.453 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 13:55:56.522 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 13:55:56.743 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 13:55:56.773 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.614 seconds (JVM running for 2.827)
+2020-12-24 13:56:03.725 http-nio-9999-exec-2 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 13:57:01.610 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 26572 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 13:57:01.700 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 13:57:02.409 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 13:57:02.409 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 13:57:02.409 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 13:57:02.479 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 13:57:02.767 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 13:57:02.796 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.72 seconds (JVM running for 3.106)
+2020-12-24 13:57:11.809 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:03:07.909 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 18124 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:03:08.001 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:03:08.742 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:03:08.742 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:03:08.742 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:03:08.813 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:03:09.100 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:03:09.129 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.706 seconds (JVM running for 3.104)
+2020-12-24 14:03:15.124 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:05:00.793 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 20396 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:05:00.803 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:05:01.516 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:05:01.516 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:05:01.516 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:05:01.588 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:05:01.865 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:05:01.894 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.719 seconds (JVM running for 3.027)
+2020-12-24 14:05:16.412 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:05:33.243 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 17836 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:05:33.323 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:05:34.039 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:05:34.039 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:05:34.040 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:05:34.108 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:05:34.387 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:05:34.419 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.67 seconds (JVM running for 2.99)
+2020-12-24 14:05:52.262 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:06:24.586 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 23224 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:06:24.700 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:06:25.513 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:06:25.514 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:06:25.514 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:06:25.583 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:06:25.867 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:06:25.900 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.88 seconds (JVM running for 3.18)
+2020-12-24 14:06:25.942 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:09:24.440 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 25924 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:09:24.533 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:09:25.305 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:09:25.305 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:09:25.305 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:09:25.372 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:09:25.628 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:09:25.656 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.775 seconds (JVM running for 3.101)
+2020-12-24 14:09:31.710 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:14:54.628 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 19204 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:14:54.715 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:14:55.429 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:14:55.429 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:14:55.429 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:14:55.497 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:14:55.791 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:14:55.820 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.723 seconds (JVM running for 3.148)
+2020-12-24 14:15:39.500 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:15:53.342 http-nio-9999-exec-2 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.baidu.boy.controller.CookieController.testString(CookieController.java:50) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_40]
+2020-12-24 14:18:17.451 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 25828 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:18:17.542 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:18:18.242 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:18:18.243 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:18:18.243 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:18:18.311 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:18:18.596 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:18:18.628 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.69 seconds (JVM running for 3.094)
+2020-12-24 14:18:41.911 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 18168 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:18:41.925 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:18:42.714 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:18:42.714 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:18:42.715 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:18:42.798 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:18:43.089 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:18:43.119 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.696 seconds (JVM running for 3.006)
+2020-12-24 14:18:51.013 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:20:15.738 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 25124 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:20:15.751 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:20:16.451 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:20:16.451 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:20:16.451 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:20:16.518 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:20:16.792 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:20:16.826 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.676 seconds (JVM running for 3.022)
+2020-12-24 14:20:27.723 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:21:41.666 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 26500 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:21:41.746 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:21:42.453 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:21:42.453 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:21:42.453 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:21:42.521 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:21:42.805 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:21:42.833 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.757 seconds (JVM running for 3.287)
+2020-12-24 14:21:44.522 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:33:23.102 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 25876 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:33:23.111 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:33:23.919 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:33:23.919 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:33:23.920 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:33:23.991 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:33:24.276 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:33:24.306 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.804 seconds (JVM running for 3.266)
+2020-12-24 14:33:52.976 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 14:35:25.340 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 23656 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 14:35:25.432 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 14:35:26.194 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:35:26.195 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 14:35:26.195 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 14:35:26.264 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 14:35:26.538 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 14:35:26.567 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.785 seconds (JVM running for 3.153)
+2020-12-24 14:35:38.254 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 15:53:31.052 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 5088 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 15:53:31.141 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 15:53:31.846 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 15:53:31.846 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 15:53:31.847 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 15:53:31.912 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 15:53:32.190 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 15:53:32.221 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.59 seconds (JVM running for 2.997)
+2020-12-24 15:55:18.800 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 15:58:03.749 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 24264 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 15:58:03.758 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 15:58:04.532 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 15:58:04.532 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 15:58:04.533 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 15:58:04.607 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 15:58:04.887 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 15:58:04.919 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.751 seconds (JVM running for 3.204)
+2020-12-24 15:59:17.048 http-nio-9999-exec-2 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 16:03:18.461 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 13320 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 16:03:18.560 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 16:03:19.289 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 16:03:19.289 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 16:03:19.290 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 16:03:19.358 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 16:03:19.641 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 16:03:19.669 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.812 seconds (JVM running for 3.283)
+2020-12-24 16:04:33.170 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-24 16:09:21.081 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 23880 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2020-12-24 16:09:21.170 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2020-12-24 16:09:21.876 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-12-24 16:09:21.877 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-24 16:09:21.877 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-24 16:09:21.946 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-24 16:09:22.219 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-12-24 16:09:22.250 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.704 seconds (JVM running for 3.14)
+2020-12-24 16:09:43.189 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-06 08:42:55.587 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 4416 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-06 08:42:55.597 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-06 08:42:56.488 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-06 08:42:56.488 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-06 08:42:56.489 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-06 08:42:56.623 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-06 08:42:56.896 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-06 08:42:56.932 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.903 seconds (JVM running for 3.732)
+2021-01-06 08:43:55.975 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-06 08:45:55.541 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 21496 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-06 08:45:55.622 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-06 08:45:56.552 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-06 08:45:56.552 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-06 08:45:56.553 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-06 08:45:56.663 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-06 08:45:56.952 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-06 08:45:57.007 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 2.134 seconds (JVM running for 3.9)
+2021-01-06 08:46:04.549 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 11:54:15.986 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 4504 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-10 11:54:15.993 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-10 11:54:16.780 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-10 11:54:16.780 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-10 11:54:16.781 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-10 11:54:16.880 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-10 11:54:17.127 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-10 11:54:17.166 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.694 seconds (JVM running for 3.229)
+2021-01-10 11:56:12.199 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:05:28.897 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 34736 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-10 13:05:28.905 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-10 13:05:29.833 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:05:29.833 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-10 13:05:29.833 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-10 13:05:29.967 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-10 13:05:30.253 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:05:30.295 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.882 seconds (JVM running for 3.583)
+2021-01-10 13:16:26.183 http-nio-9999-exec-7 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:16:51.443 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 34536 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-10 13:16:51.462 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-10 13:16:53.029 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:16:53.030 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-10 13:16:53.030 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-10 13:16:53.158 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-10 13:16:53.509 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:16:53.573 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 3.226 seconds (JVM running for 6.728)
+2021-01-10 13:16:59.339 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:19:51.167 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 8048 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-10 13:19:51.176 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-10 13:19:52.153 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:19:52.154 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-10 13:19:52.155 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-10 13:19:52.263 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-10 13:19:52.537 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:19:52.574 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.961 seconds (JVM running for 3.708)
+2021-01-10 13:19:59.910 http-nio-9999-exec-2 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:21:13.148 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 3460 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-10 13:21:13.168 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-10 13:21:15.142 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:21:15.143 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-10 13:21:15.144 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-10 13:21:15.422 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-10 13:21:16.018 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:21:16.100 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 4.05 seconds (JVM running for 7.618)
+2021-01-10 13:31:19.966 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 3076 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-10 13:31:19.977 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-10 13:31:21.076 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:31:21.077 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-10 13:31:21.077 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-10 13:31:21.220 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-10 13:31:21.589 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:31:21.640 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 2.363 seconds (JVM running for 5.954)
+2021-01-10 13:31:30.470 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:31:30.561 http-nio-9999-exec-1 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException: Unexpected EOF read on the socket]
+2021-01-10 13:32:14.357 http-nio-9999-exec-3 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException: Unexpected EOF read on the socket]
+2021-01-10 13:35:39.757 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 27052 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-10 13:35:39.768 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-10 13:35:40.792 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:35:40.792 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-10 13:35:40.793 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-10 13:35:40.931 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-10 13:35:41.291 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:35:41.345 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 2.153 seconds (JVM running for 4.084)
+2021-01-10 13:36:07.664 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:39:28.214 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 23800 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-10 13:39:28.232 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-10 13:39:30.146 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:39:30.148 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-10 13:39:30.149 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-10 13:39:30.461 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-10 13:39:31.095 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-10 13:39:31.199 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 4.001 seconds (JVM running for 7.364)
+2021-01-10 13:40:25.394 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 14:12:01.173 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 30352 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-10 14:12:01.183 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-10 14:12:02.173 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-10 14:12:02.173 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-10 14:12:02.173 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-10 14:12:02.316 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-10 14:12:02.678 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-10 14:12:02.724 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 2.109 seconds (JVM running for 3.983)
+2021-01-10 14:12:10.251 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 15:09:57.606 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 26556 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-12 15:09:57.615 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-12 15:09:58.450 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-12 15:09:58.450 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-12 15:09:58.450 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-12 15:09:58.561 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-12 15:09:58.806 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-12 15:09:58.845 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.824 seconds (JVM running for 3.518)
+2021-01-12 15:10:18.210 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 15:10:18.243 http-nio-9999-exec-1 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.Map<java.lang.String, java.lang.Object> com.baidu.boy.controller.ClientController.clientTest(java.util.Map<java.lang.String, java.lang.Object>)]
+2021-01-15 16:13:24.581 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 22064 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-15 16:13:24.588 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-15 16:13:25.376 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-15 16:13:25.376 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-15 16:13:25.377 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-15 16:13:25.478 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-15 16:13:25.718 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-15 16:13:25.753 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.668 seconds (JVM running for 3.25)
+2021-01-15 16:14:43.834 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 21664 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-15 16:14:43.841 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-15 16:14:44.621 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-15 16:14:44.621 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-15 16:14:44.622 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-15 16:14:44.764 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-15 16:14:45.015 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-15 16:14:45.047 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.649 seconds (JVM running for 3.184)
+2021-01-15 16:15:37.892 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-15 16:15:37.917 http-nio-9999-exec-1 INFO com.baidu.boy.controller.ClientController map->{result=我收到了}
+2021-01-15 16:15:42.651 http-nio-9999-exec-3 INFO com.baidu.boy.controller.ClientController map->{result=我收到了}
+2021-01-15 16:16:04.641 main INFO com.baidu.boy.BoyApplication Starting BoyApplication on WHITE with PID 22500 (D:\workspace\github\boy\target\classes started by harry in D:\workspace\github\boy)
+2021-01-15 16:16:04.648 main INFO com.baidu.boy.BoyApplication No active profile set, falling back to default profiles: default
+2021-01-15 16:16:05.378 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2021-01-15 16:16:05.378 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-15 16:16:05.379 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-15 16:16:05.476 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-15 16:16:05.708 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2021-01-15 16:16:05.747 main INFO com.baidu.boy.BoyApplication Started BoyApplication in 1.525 seconds (JVM running for 2.993)
+2021-01-15 16:16:09.841 http-nio-9999-exec-3 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-15 16:16:09.862 http-nio-9999-exec-3 INFO com.baidu.boy.controller.ClientController map->null
+2021-01-15 16:16:21.243 http-nio-9999-exec-1 INFO com.baidu.boy.controller.ClientController map->null

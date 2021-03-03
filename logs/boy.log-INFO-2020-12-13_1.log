@@ -1,0 +1,308 @@
+2020-11-21 22:05:41.043 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 22:07:47.070 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-11-21 22:07:47.070 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-21 22:07:47.070 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 22:07:47.164 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-21 22:07:47.429 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-11-21 22:08:20.135 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 22:09:24.195 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-11-21 22:09:24.211 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-21 22:09:24.211 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 22:09:24.290 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-21 22:09:24.570 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-11-21 22:09:24.830 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 22:10:31.881 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-11-21 22:10:31.881 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-21 22:10:31.881 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 22:10:31.975 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-21 22:10:32.225 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-11-21 22:10:36.277 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 22:42:43.865 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-11-21 22:42:43.865 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-21 22:42:43.865 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 22:42:43.943 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-21 22:42:44.193 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-11-21 22:42:48.766 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 23:01:44.073 main INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9999"]
+2020-11-21 23:01:44.073 main INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-21 23:01:44.073 main INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 23:01:44.166 main INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-21 23:01:44.438 main INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9999"]
+2020-11-21 23:01:50.296 http-nio-9999-exec-1 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-22 11:31:59.987 main INFO com.baidu.boy.BoyApplicationTests Starting BoyApplicationTests on WHITE with PID 23108 (started by harry in D:\workspace\github\boy)
+2020-11-22 11:31:59.987 main INFO com.baidu.boy.BoyApplicationTests No active profile set, falling back to default profiles: default
+2020-11-22 11:32:01.538 main INFO com.baidu.boy.BoyApplicationTests Started BoyApplicationTests in 1.98 seconds (JVM running for 3.499)
+2020-11-22 11:32:01.726 main INFO com.baidu.boy.BoyApplicationTests this is info0
+2020-11-22 11:32:01.726 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:32:01.726 main INFO com.baidu.boy.BoyApplicationTests this is info1
+2020-11-22 11:32:01.726 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:32:01.726 main INFO com.baidu.boy.BoyApplicationTests this is info2
+2020-11-22 11:32:01.726 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:32:01.726 main INFO com.baidu.boy.BoyApplicationTests this is info3
+2020-11-22 11:32:01.726 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:32:01.726 main INFO com.baidu.boy.BoyApplicationTests this is info4
+2020-11-22 11:32:01.726 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:32:01.726 main INFO com.baidu.boy.BoyApplicationTests this is info5
+2020-11-22 11:32:01.726 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:32:01.726 main INFO com.baidu.boy.BoyApplicationTests this is info6
+2020-11-22 11:32:01.726 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:32:01.726 main INFO com.baidu.boy.BoyApplicationTests this is info7
+2020-11-22 11:32:01.726 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:32:01.726 main INFO com.baidu.boy.BoyApplicationTests this is info8
+2020-11-22 11:32:01.726 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:32:01.726 main INFO com.baidu.boy.BoyApplicationTests this is info9
+2020-11-22 11:32:01.726 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 11:33:36.790 main INFO com.baidu.boy.BoyApplicationTests Starting BoyApplicationTests on WHITE with PID 12352 (started by harry in D:\workspace\github\boy)
+2020-11-22 11:33:36.805 main INFO com.baidu.boy.BoyApplicationTests No active profile set, falling back to default profiles: default
+2020-11-22 11:33:38.265 main INFO com.baidu.boy.BoyApplicationTests Started BoyApplicationTests in 1.831 seconds (JVM running for 3.266)
+2020-11-22 11:33:38.483 main INFO com.baidu.boy.BoyApplicationTests this is info0
+2020-11-22 11:33:38.483 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:33:38.483 main INFO com.baidu.boy.BoyApplicationTests this is info1
+2020-11-22 11:33:38.483 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:33:38.483 main INFO com.baidu.boy.BoyApplicationTests this is info2
+2020-11-22 11:33:38.483 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:33:38.483 main INFO com.baidu.boy.BoyApplicationTests this is info3
+2020-11-22 11:33:38.483 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:33:38.483 main INFO com.baidu.boy.BoyApplicationTests this is info4
+2020-11-22 11:33:38.483 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:33:38.483 main INFO com.baidu.boy.BoyApplicationTests this is info5
+2020-11-22 11:33:38.483 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:33:38.483 main INFO com.baidu.boy.BoyApplicationTests this is info6
+2020-11-22 11:33:38.483 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:33:38.483 main INFO com.baidu.boy.BoyApplicationTests this is info7
+2020-11-22 11:33:38.483 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:33:38.483 main INFO com.baidu.boy.BoyApplicationTests this is info8
+2020-11-22 11:33:38.483 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:33:38.483 main INFO com.baidu.boy.BoyApplicationTests this is info9
+2020-11-22 11:33:38.483 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 11:34:14.498 main INFO com.baidu.boy.BoyApplicationTests Starting BoyApplicationTests on WHITE with PID 18060 (started by harry in D:\workspace\github\boy)
+2020-11-22 11:34:14.498 main INFO com.baidu.boy.BoyApplicationTests No active profile set, falling back to default profiles: default
+2020-11-22 11:34:15.942 main INFO com.baidu.boy.BoyApplicationTests Started BoyApplicationTests in 1.838 seconds (JVM running for 3.278)
+2020-11-22 11:34:16.129 main INFO com.baidu.boy.BoyApplicationTests this is info0
+2020-11-22 11:34:16.129 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:34:16.129 main INFO com.baidu.boy.BoyApplicationTests this is info1
+2020-11-22 11:34:16.129 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:34:16.129 main INFO com.baidu.boy.BoyApplicationTests this is info2
+2020-11-22 11:34:16.129 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:34:16.129 main INFO com.baidu.boy.BoyApplicationTests this is info3
+2020-11-22 11:34:16.129 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:34:16.129 main INFO com.baidu.boy.BoyApplicationTests this is info4
+2020-11-22 11:34:16.129 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:34:16.129 main INFO com.baidu.boy.BoyApplicationTests this is info5
+2020-11-22 11:34:16.129 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:34:16.129 main INFO com.baidu.boy.BoyApplicationTests this is info6
+2020-11-22 11:34:16.129 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:34:16.129 main INFO com.baidu.boy.BoyApplicationTests this is info7
+2020-11-22 11:34:16.129 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:34:16.129 main INFO com.baidu.boy.BoyApplicationTests this is info8
+2020-11-22 11:34:16.129 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:34:16.129 main INFO com.baidu.boy.BoyApplicationTests this is info9
+2020-11-22 11:34:16.129 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 11:34:59.045 main INFO com.baidu.boy.BoyApplicationTests Starting BoyApplicationTests on WHITE with PID 24144 (started by harry in D:\workspace\github\boy)
+2020-11-22 11:34:59.060 main INFO com.baidu.boy.BoyApplicationTests No active profile set, falling back to default profiles: default
+2020-11-22 11:35:00.504 main INFO com.baidu.boy.BoyApplicationTests Started BoyApplicationTests in 1.816 seconds (JVM running for 3.264)
+2020-11-22 11:35:00.684 main INFO com.baidu.boy.BoyApplicationTests this is info0
+2020-11-22 11:35:00.684 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:35:00.684 main INFO com.baidu.boy.BoyApplicationTests this is info1
+2020-11-22 11:35:00.684 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:35:00.684 main INFO com.baidu.boy.BoyApplicationTests this is info2
+2020-11-22 11:35:00.684 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:35:00.684 main INFO com.baidu.boy.BoyApplicationTests this is info3
+2020-11-22 11:35:00.684 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:35:00.684 main INFO com.baidu.boy.BoyApplicationTests this is info4
+2020-11-22 11:35:00.684 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:35:00.684 main INFO com.baidu.boy.BoyApplicationTests this is info5
+2020-11-22 11:35:00.684 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:35:00.684 main INFO com.baidu.boy.BoyApplicationTests this is info6
+2020-11-22 11:35:00.684 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:35:00.684 main INFO com.baidu.boy.BoyApplicationTests this is info7
+2020-11-22 11:35:00.684 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:35:00.684 main INFO com.baidu.boy.BoyApplicationTests this is info8
+2020-11-22 11:35:00.684 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:35:00.684 main INFO com.baidu.boy.BoyApplicationTests this is info9
+2020-11-22 11:35:00.684 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 11:40:30.168 main INFO com.baidu.boy.BoyApplicationTests Starting BoyApplicationTests on WHITE with PID 3436 (started by harry in D:\workspace\github\boy)
+2020-11-22 11:40:30.186 main INFO com.baidu.boy.BoyApplicationTests No active profile set, falling back to default profiles: default
+2020-11-22 11:40:31.690 main INFO com.baidu.boy.BoyApplicationTests Started BoyApplicationTests in 1.877 seconds (JVM running for 3.358)
+2020-11-22 11:40:31.957 main INFO com.baidu.boy.BoyApplicationTests this is info0
+2020-11-22 11:40:31.957 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:40:31.957 main INFO com.baidu.boy.BoyApplicationTests this is info1
+2020-11-22 11:40:31.957 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:40:31.957 main INFO com.baidu.boy.BoyApplicationTests this is info2
+2020-11-22 11:40:31.957 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:40:31.957 main INFO com.baidu.boy.BoyApplicationTests this is info3
+2020-11-22 11:40:31.957 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:40:31.957 main INFO com.baidu.boy.BoyApplicationTests this is info4
+2020-11-22 11:40:31.957 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:40:31.957 main INFO com.baidu.boy.BoyApplicationTests this is info5
+2020-11-22 11:40:31.957 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:40:31.957 main INFO com.baidu.boy.BoyApplicationTests this is info6
+2020-11-22 11:40:31.957 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:40:31.957 main INFO com.baidu.boy.BoyApplicationTests this is info7
+2020-11-22 11:40:31.957 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:40:31.957 main INFO com.baidu.boy.BoyApplicationTests this is info8
+2020-11-22 11:40:31.957 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:40:31.957 main INFO com.baidu.boy.BoyApplicationTests this is info9
+2020-11-22 11:40:31.957 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 11:42:47.483 main INFO com.baidu.boy.BoyApplicationTests Starting BoyApplicationTests on WHITE with PID 22996 (started by harry in D:\workspace\github\boy)
+2020-11-22 11:42:47.493 main INFO com.baidu.boy.BoyApplicationTests No active profile set, falling back to default profiles: default
+2020-11-22 11:42:49.068 main INFO com.baidu.boy.BoyApplicationTests Started BoyApplicationTests in 1.987 seconds (JVM running for 3.534)
+2020-11-22 11:42:49.264 main INFO com.baidu.boy.BoyApplicationTests this is info0
+2020-11-22 11:42:49.264 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:42:49.264 main INFO com.baidu.boy.BoyApplicationTests this is info1
+2020-11-22 11:42:49.264 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:42:49.264 main INFO com.baidu.boy.BoyApplicationTests this is info2
+2020-11-22 11:42:49.264 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:42:49.264 main INFO com.baidu.boy.BoyApplicationTests this is info3
+2020-11-22 11:42:49.264 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:42:49.264 main INFO com.baidu.boy.BoyApplicationTests this is info4
+2020-11-22 11:42:49.264 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:42:49.264 main INFO com.baidu.boy.BoyApplicationTests this is info5
+2020-11-22 11:42:49.264 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:42:49.264 main INFO com.baidu.boy.BoyApplicationTests this is info6
+2020-11-22 11:42:49.264 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:42:49.264 main INFO com.baidu.boy.BoyApplicationTests this is info7
+2020-11-22 11:42:49.264 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:42:49.264 main INFO com.baidu.boy.BoyApplicationTests this is info8
+2020-11-22 11:42:49.264 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:42:49.264 main INFO com.baidu.boy.BoyApplicationTests this is info9
+2020-11-22 11:42:49.264 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 11:45:16.198 main INFO com.baidu.boy.BoyApplicationTests Starting BoyApplicationTests on WHITE with PID 14980 (started by harry in D:\workspace\github\boy)
+2020-11-22 11:45:16.203 main INFO com.baidu.boy.BoyApplicationTests No active profile set, falling back to default profiles: default
+2020-11-22 11:45:17.693 main INFO com.baidu.boy.BoyApplicationTests Started BoyApplicationTests in 1.88 seconds (JVM running for 3.381)
+2020-11-22 11:45:17.903 main INFO com.baidu.boy.BoyApplicationTests this is info0
+2020-11-22 11:45:17.903 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:45:17.903 main INFO com.baidu.boy.BoyApplicationTests this is info1
+2020-11-22 11:45:17.903 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:45:17.903 main INFO com.baidu.boy.BoyApplicationTests this is info2
+2020-11-22 11:45:17.903 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:45:17.903 main INFO com.baidu.boy.BoyApplicationTests this is info3
+2020-11-22 11:45:17.903 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:45:17.903 main INFO com.baidu.boy.BoyApplicationTests this is info4
+2020-11-22 11:45:17.903 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:45:17.903 main INFO com.baidu.boy.BoyApplicationTests this is info5
+2020-11-22 11:45:17.903 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:45:17.903 main INFO com.baidu.boy.BoyApplicationTests this is info6
+2020-11-22 11:45:17.903 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:45:17.903 main INFO com.baidu.boy.BoyApplicationTests this is info7
+2020-11-22 11:45:17.903 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:45:17.903 main INFO com.baidu.boy.BoyApplicationTests this is info8
+2020-11-22 11:45:17.903 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:45:17.903 main INFO com.baidu.boy.BoyApplicationTests this is info9
+2020-11-22 11:45:17.903 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 11:46:03.129 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:46:03.133 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:46:03.133 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:46:03.133 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:46:03.133 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:46:03.133 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:46:03.133 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:46:03.133 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:46:03.133 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:46:03.133 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 11:46:30.163 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:46:30.173 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:46:30.173 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:46:30.173 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:46:30.173 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:46:30.173 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:46:30.173 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:46:30.173 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:46:30.173 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:46:30.173 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 11:47:30.793 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 11:47:30.798 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:47:30.798 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 11:47:30.798 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:47:30.798 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 11:47:30.798 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:47:30.798 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 11:47:30.798 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:47:30.798 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 11:47:30.798 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:47:30.798 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 11:47:30.798 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:47:30.798 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 11:47:30.798 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:47:30.798 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 11:47:30.798 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:47:30.798 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 11:47:30.798 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:47:30.803 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 11:47:30.803 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 11:48:01.073 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 11:48:01.073 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 11:48:01.073 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 11:48:01.073 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 11:48:01.073 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 11:48:01.073 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 11:48:01.073 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 11:48:01.073 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 11:48:01.073 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 11:48:01.073 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 16:49:28.310 main INFO com.baidu.boy.BoyApplicationTests Starting BoyApplicationTests on WHITE with PID 2168 (started by harry in D:\workspace\github\boy)
+2020-11-22 16:49:28.310 main INFO com.baidu.boy.BoyApplicationTests No active profile set, falling back to default profiles: default
+2020-11-22 16:49:30.207 main INFO com.baidu.boy.BoyApplicationTests Started BoyApplicationTests in 2.395 seconds (JVM running for 4.049)
+2020-11-22 16:49:30.522 main INFO com.baidu.boy.BoyApplicationTests this is info0
+2020-11-22 16:49:30.522 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 16:49:30.538 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 16:49:30.538 main INFO com.baidu.boy.BoyApplicationTests this is info1
+2020-11-22 16:49:30.538 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 16:49:30.538 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 16:49:30.538 main INFO com.baidu.boy.BoyApplicationTests this is info2
+2020-11-22 16:49:30.538 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 16:49:30.538 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 16:49:30.538 main INFO com.baidu.boy.BoyApplicationTests this is info3
+2020-11-22 16:49:30.538 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 16:49:30.538 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 16:49:30.538 main INFO com.baidu.boy.BoyApplicationTests this is info4
+2020-11-22 16:49:30.538 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 16:49:30.538 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 16:49:30.538 main INFO com.baidu.boy.BoyApplicationTests this is info5
+2020-11-22 16:49:30.538 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 16:49:30.538 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 16:49:30.538 main INFO com.baidu.boy.BoyApplicationTests this is info6
+2020-11-22 16:49:30.538 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 16:49:30.538 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 16:49:30.538 main INFO com.baidu.boy.BoyApplicationTests this is info7
+2020-11-22 16:49:30.538 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 16:49:30.538 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 16:49:30.538 main INFO com.baidu.boy.BoyApplicationTests this is info8
+2020-11-22 16:49:30.538 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 16:49:30.538 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 16:49:30.538 main INFO com.baidu.boy.BoyApplicationTests this is info9
+2020-11-22 16:49:30.538 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn
+2020-11-22 16:49:30.538 main ERROR com.baidu.boy.BoyApplicationTests this is error9
+2020-11-22 16:50:33.669 main INFO com.baidu.boy.BoyApplicationTests Starting BoyApplicationTests on WHITE with PID 17216 (started by harry in D:\workspace\github\boy)
+2020-11-22 16:50:33.683 main INFO com.baidu.boy.BoyApplicationTests No active profile set, falling back to default profiles: default
+2020-11-22 16:50:35.352 main INFO com.baidu.boy.BoyApplicationTests Started BoyApplicationTests in 2.109 seconds (JVM running for 3.532)
+2020-11-22 16:50:35.544 main INFO com.baidu.boy.BoyApplicationTests this is info0
+2020-11-22 16:50:35.544 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn 少御
+2020-11-22 16:50:35.544 main ERROR com.baidu.boy.BoyApplicationTests this is error0
+2020-11-22 16:50:35.544 main INFO com.baidu.boy.BoyApplicationTests this is info1
+2020-11-22 16:50:35.544 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn 少御
+2020-11-22 16:50:35.544 main ERROR com.baidu.boy.BoyApplicationTests this is error1
+2020-11-22 16:50:35.544 main INFO com.baidu.boy.BoyApplicationTests this is info2
+2020-11-22 16:50:35.544 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn 少御
+2020-11-22 16:50:35.544 main ERROR com.baidu.boy.BoyApplicationTests this is error2
+2020-11-22 16:50:35.544 main INFO com.baidu.boy.BoyApplicationTests this is info3
+2020-11-22 16:50:35.544 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn 少御
+2020-11-22 16:50:35.544 main ERROR com.baidu.boy.BoyApplicationTests this is error3
+2020-11-22 16:50:35.544 main INFO com.baidu.boy.BoyApplicationTests this is info4
+2020-11-22 16:50:35.544 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn 少御
+2020-11-22 16:50:35.544 main ERROR com.baidu.boy.BoyApplicationTests this is error4
+2020-11-22 16:50:35.544 main INFO com.baidu.boy.BoyApplicationTests this is info5
+2020-11-22 16:50:35.544 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn 少御
+2020-11-22 16:50:35.544 main ERROR com.baidu.boy.BoyApplicationTests this is error5
+2020-11-22 16:50:35.544 main INFO com.baidu.boy.BoyApplicationTests this is info6
+2020-11-22 16:50:35.544 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn 少御
+2020-11-22 16:50:35.544 main ERROR com.baidu.boy.BoyApplicationTests this is error6
+2020-11-22 16:50:35.544 main INFO com.baidu.boy.BoyApplicationTests this is info7
+2020-11-22 16:50:35.544 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn 少御
+2020-11-22 16:50:35.544 main ERROR com.baidu.boy.BoyApplicationTests this is error7
+2020-11-22 16:50:35.544 main INFO com.baidu.boy.BoyApplicationTests this is info8
+2020-11-22 16:50:35.544 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn 少御
+2020-11-22 16:50:35.544 main ERROR com.baidu.boy.BoyApplicationTests this is error8
+2020-11-22 16:50:35.544 main INFO com.baidu.boy.BoyApplicationTests this is info9
+2020-11-22 16:50:35.544 main WARN com.baidu.boy.BoyApplicationTests what's it ? -> is warn 少御
+2020-11-22 16:50:35.544 main ERROR com.baidu.boy.BoyApplicationTests this is error9

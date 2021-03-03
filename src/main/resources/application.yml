@@ -1,0 +1,9 @@
+server:
+  port: 9999
+
+
+myName: shuaige
+
+# 指定log4j2配置文件路径
+logging:
+  config: classpath:log4j2-async.xml
